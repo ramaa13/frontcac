@@ -131,7 +131,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .aside-derecha{
@@ -152,7 +152,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .centro {
@@ -164,7 +164,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .derecha {
@@ -176,7 +176,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .sucursales {
@@ -242,7 +242,7 @@ footer section a i {
     text-decoration: none;
     margin-top: 10px;
 }
-@keyframes linea2 {                           /* Animacion de Imagenes */
+@keyframes animacion1 {                           /* Animacion de Imagenes */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -448,7 +448,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .aside-derecha{
@@ -469,7 +469,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .centro {
@@ -481,7 +481,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .derecha {
@@ -493,7 +493,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .sucursales {
@@ -559,7 +559,7 @@ footer section a i {
     text-decoration: none;
     margin-top: 10px;
 }
-@keyframes linea2 {                           /* Animacion de Imagenes */
+@keyframes animacion1 {                           /* Animacion de Imagenes */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -723,7 +723,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .aside-derecha{
@@ -744,7 +744,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .centro {
@@ -756,7 +756,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .derecha {
@@ -768,7 +768,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-between;
     transition: .4s ease all;
-    animation-name: linea2;
+    animation-name: animacion1;
     animation-duration: 3s;
 }
 .sucursales {
@@ -834,7 +834,7 @@ footer section a i {
     text-decoration: none;
     margin-top: 10px;
 }
-@keyframes linea2 {                           /* Animacion de Imagenes */
+@keyframes animacion1 {                           /* Animacion de Imagenes */
     from {opacity: 0;}
     to {opacity: 1;}
 }
