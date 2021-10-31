@@ -7,11 +7,11 @@ label, h3 {
     font-size: 14px;
     color: white;
     font-weight: bold;
-    display: none;
+    display: none;    /* Mensaje oculto por defecto */
 }
 
 .mensaje-exito-activo {
-    display: block;
+    display: block;    /* Mensaje revelado al pasar afirmativamente el formulario */
 }
 
 .error {
@@ -19,22 +19,22 @@ label, h3 {
     margin-bottom: 0;
     color: orange;
     font-weight: normal;
-    display: none;
+    display: none;    /* Mensaje de error oculto por defecto */
 }
 
 .error-activo {
-    display: block;
+    display: block;    /* Mensaje de error revelado al no cumplirse algo */
 }
 
 .contacto_error {
 	font-size: 14px;
     font-weight: bold;
     color: orange;
-    display: none;
+    display: none;    /* Mensaje de error de formulario oculto por defecto */
 }
 
 .contacto_error-activo {
-    display: block;
+    display: block;    /* Mensaje de error de formulario revelado ante algún false */
 }
 
 .contacto_error p {
@@ -56,6 +56,6 @@ form{
     animation-duration: 3s;
 }
 
-@keyframes animacion1 {                           /* Animacion de Imagenes */
+@keyframes animacion1 {                           /* Animacion de Opacidad */
     from {opacity: 0;}
     to {opacity: 1;}
