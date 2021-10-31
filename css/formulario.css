@@ -52,4 +52,10 @@ input{
 
 form{
     margin:auto;
+    animation-name: animacion1;
+    animation-duration: 3s;
 }
+
+@keyframes animacion1 {                           /* Animacion de Imagenes */
+    from {opacity: 0;}
+    to {opacity: 1;}
