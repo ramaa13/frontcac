@@ -10,17 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
 <body>
+    <div id="componentesVue">
     <header id="cabezera">
         <img class ="item1-cabezera" src="img/Logo.png" alt="Imagen no encontrada">
         <h1 class="item2-cabezera">F R Servicio Técnico PC</h1>
-        <nav class="item3-cabezera">     
-          <a href="index.html"> Home </a> 
-          <a href="contacto.html"> Contacto </a> 
-         <a href="sucursales.html"> Sucursales </a>
-        </nav>
+        <menuvue></menuvue>
     </header>
     <main>
         <section id="cuerpo">
@@ -33,7 +31,7 @@
                 <p class="sucursales">Sucursal 2</p>
                 <img src="img/Local 2.png" alt="Imagen no encontrada">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7422142149053!2d-58.52052268521397!3d-34.61067956537258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d0c18122cf%3A0x16e318de5f9e91fa!2sAv.%20Francisco%20Beir%C3%B3%204800%2C%20C1419HZW%20CABA!5e0!3m2!1ses!2sar!4v1629241755594!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
-            </div> 
+            </div>
             <div class="derecha">
                 <p class="sucursales">Sucursal 3</p>
                 <img src="img/Local 3.png" alt="Imagen no encontrada">
@@ -42,15 +40,11 @@
         </section>
     </main>
     <footer id="footer">
-        <section class="foot">
-            <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
-            <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://ar.pinterest.com/"><i class="fab fa-pinterest"></i></a>
-            <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-        </section>
+        <footbarvue></footbarvue>
         <p>Derechos reservados @2021</p>
     </footer>
+    </div>
+    <script src="js/jsArchivo.js"></script>
 </body>
 
 </html>
