@@ -33,7 +33,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
 h1 {
     padding: 0;
     margin: auto;
@@ -57,7 +56,7 @@ nav a:hover {
     background-color:#E9A6A6;
     color: white;
 }
-#cuerpo {                                                              /* Contenedor Principal del Cuerpo  */
+#cuerpo {                                                        /* Contenedor Principal del Cuerpo  */
     margin: auto;
     display: flex;
     background-color:#864879;
@@ -70,7 +69,7 @@ nav a:hover {
     margin-bottom: 3vh;
     transition: .4s ease all;
 }
-.aside-izq{
+.aside-izquierda{
     margin: auto;
     flex: 33%;
     height: 60vh;
@@ -79,7 +78,7 @@ nav a:hover {
     border-radius: 10px;
     transition: .4s ease all;
 }
-.centro {
+.section-centro {
     display: flex;
     flex: 34%;
     height: 60vh;
@@ -100,6 +99,55 @@ nav a:hover {
     border-radius: 10px;
     transition: .4s ease all;
 }
+.izquierda {
+    flex: 33%;
+    height: 60vh;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s ease all;
+    animation-name: linea2;
+    animation-duration: 3s;
+}
+.centro {
+    flex: 33%;
+    height: 60vh;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s ease all;
+    animation-name: linea2;
+    animation-duration: 3s;
+}
+.derecha {
+    flex:33%;
+    height: 60vh;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s ease all;
+    animation-name: linea2;
+    animation-duration: 3s;
+}
+.sucursales {
+    flex:10%;
+    margin: 1px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+section div img{
+    flex: 40%;
+    height: 25vh;
+    margin-bottom: 20px;
+
+}
 section h2 {
     color: black;
     font-size: 2rem;
@@ -112,6 +160,11 @@ section p {
 }
 section img { 
     height: 29vh;
+    border-radius: 10px;
+}
+iframe{
+    flex: 40%;
+    width: 25vw;
     border-radius: 10px;
 }
 #footer{                                                    /* Contenedor Principal Pie de pagina */
@@ -145,12 +198,6 @@ footer section a i {
     text-decoration: none;
     margin-top: 10px;
 }
-iframe{
-    margin: 10px 1vw 10px 1vw;
-    border:0px;
-    height: auto;
-    width: 18vw;
-}
 @keyframes linea2 {                           /* Animacion de Imagenes */
     from {opacity: 0;}
     to {opacity: 1;}
@@ -173,12 +220,24 @@ iframe{
     section p { 
         font-size:1.2rem;
     }
+    section div img{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 35vw;
+    }
+    iframe{
+        margin-bottom:20px;
+    }
+    .sucursales {
+        margin: 1px;
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 780px) {                   /* Corte para dispositivos Moviles */
     #cuerpo{
         flex-direction: column;
     }
-    .centro{
+    .section-centro{
         flex:100%;
         flex-direction: row;
         margin-top: 2vh;
@@ -188,7 +247,7 @@ iframe{
         width: 42vw;
         border-radius: 10px;
     }
-    .aside-izq{
+    .aside-izquierda{
         flex: 100%;
     }
     .aside-derecha{
@@ -196,6 +255,35 @@ iframe{
     }
     .item1-cabezera{
         display: none;
+    }
+    .izquierda{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .centro{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .derecha{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    section div img{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 12vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    iframe{
+        margin-right: 10px;
+        width: 15vw;
+        margin-top: 0.1px;
+        margin-bottom: 0.1px;
+    }
+    .sucursales{
+        font-size: 0.8rem;
     }
     #cabezera{
         flex-direction:column;
@@ -221,7 +309,6 @@ iframe{
     section p {
         font-size:0.7rem;
     }
-
     footer section a {
         font-size: 1rem;
     }
