@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>FR Servicio Técnico PC</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="ico/Logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="componentesVue">
+        <header id="cabezera">
+            <img class="item1-cabezera" src="img/Logo.png" alt="Imagen no encontrada">
+            <h1 class="item2-cabezera">F R Servicio Técnico PC</h1>
+            <menuvue></menuvue>
+        </header>
+        <main>
+            <section id="cuerpo">
+                <form action="" class="contacto" id="contacto">
+                    <h3>Formulario de contacto</h3>
+                    <div id="div_nombre">
+                        <label for="nombre">Nombre:
+                            <input type="text" name="nombre" id="nombre" placeholder="Juan Perez">
+                            <p class="error">Solo letras y espacios.</p>
+                        </label>
+                    </div>
+                    <br><br>
+                    <div id="div_email">
+                        <label for="email">E-mail:
+                            <input type="email" name="email" id="email" placeholder="correo@servidor.com">
+                            <p class="error">Solo letras, numeros, _ o - y formato de email (Ej ...@servidor.com).</p>
+                        </label>
+                    </div>
+                    <br><br>
+                    <div id="div_telefono">
+                        <label for="telefono">Teléfono:
+                            <input type="text" name="telefono" id="telefono" placeholder="123456789">
+                            <p class="error">Solo números entre 7 y 14 dígitos.</p>
+                        </label>
+                    </div>
+                    <br><br>
+                    <div id="div_asunto">
+                        <label for="asunto">Asunto:
+                            <input type="text" name="asunto" id="asunto">
+                        </label>
+                    </div>
+                    <br><br>
+                    <div id="div_mensaje">
+                        <label for="mensaje"> Mensaje: <br>
+                            <textarea rows="4" cols="30" name="mensaje" id="mensaje"></textarea>
+                        </label>
+                    </div>
+                    <br><br>
+                    <p class="contacto_error" id="contacto_error">
+                        Rellenar formulario correctamente.
+                    <div id="div_enviar">
+                        <input id="submit" type="submit" value="Enviar">
+                        <p class="mensaje-exito" id="mensaje-exito">Mensaje enviado exitosamente!</p>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+        <footer id="footer">
+            <footbarvue></footbarvue>
+            <p>Derechos reservados @2021</p>
+        </footer>
+    </div>
+    <script src="js/jsArchivo.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>

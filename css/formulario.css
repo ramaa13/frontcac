@@ -1,0 +1,55 @@
+label, h3 {
+    font-weight: bold;
+    color:white;
+}
+
+.mensaje-exito {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.mensaje-exito-activo {
+    display: block;
+}
+
+.error {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: orange;
+    font-weight: normal;
+    display: none;
+}
+
+.error-activo {
+    display: block;
+}
+
+.contacto_error {
+	font-size: 14px;
+    font-weight: bold;
+    color: orange;
+    display: none;
+}
+
+.contacto_error-activo {
+    display: block;
+}
+
+.contacto_error p {
+    margin: 0;
+}
+
+#mensaje{
+    height: 150px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
+
+form{
+    margin:auto;
+}
