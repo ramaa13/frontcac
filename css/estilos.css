@@ -15,7 +15,6 @@ body{
     font-family: monospace;
     justify-content: space-between;
     margin-bottom: 3vh;
-
     transition: .3s ease all
 }
 .item1-cabezera {
@@ -44,7 +43,6 @@ h1 {
     font-size: 2.9rem;
     text-shadow: 4px 4px gray;
 }
-
 nav  a {
     background-color:#864879;
     text-decoration: none;
@@ -72,7 +70,6 @@ nav a:hover {
     transition: .4s ease all;
 }
 .aside-izquierda{
-
     margin: auto;
     flex: 33%;
     height: 60vh;
@@ -81,7 +78,6 @@ nav a:hover {
     border-radius: 10px;
     transition: .4s ease all;
 }
-
 .section-centro {
     display: flex;
     flex: 34%;
@@ -94,7 +90,6 @@ nav a:hover {
     animation-name: linea2;
     animation-duration: 3s;
 }
-
 .aside-derecha{
     margin: auto;
     flex: 33%;
@@ -104,7 +99,6 @@ nav a:hover {
     border-radius: 10px;
     transition: .4s ease all;
 }
-
 .izquierda {
     flex: 33%;
     height: 60vh;
@@ -163,9 +157,8 @@ section p {
     color: black;
     font-size: 1.2rem;
     text-align:center;
-
 }
-section img { 
+section img {
     height: 29vh;
     border-radius: 10px;
 }
@@ -191,7 +184,6 @@ iframe{
     display: flex;
     flex: 100%;
     justify-content: center;
-
 }
 footer section a {
     margin: 0 1vw 0 1vw;
@@ -199,16 +191,13 @@ footer section a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
-
 }
-
 footer section a i {
     color: white;
     background-color:#864879;
     text-decoration: none;
     margin-top: 10px;
 }
-
 @keyframes linea2 {                           /* Animacion de Imagenes */
     from {opacity: 0;}
     to {opacity: 1;}
@@ -221,14 +210,14 @@ footer section a i {
     .item2-cabezera{
         font-size: 2.3rem;
     }
-    section img { 
+    section img {
         width: 42vw;
         border-radius: 10px;
     }
     section h2 {
         font-size: 2rem;
     }
-    section p { 
+    section p {
         font-size:1.2rem;
     }
     section div img{
@@ -254,13 +243,11 @@ footer section a i {
         margin-top: 2vh;
         justify-content: space-between;
     }
-
-    section img { 
+    section img {
         width: 42vw;
         border-radius: 10px;
     }
     .aside-izquierda{
-
         flex: 100%;
     }
     .aside-derecha{
@@ -269,7 +256,6 @@ footer section a i {
     .item1-cabezera{
         display: none;
     }
-
     .izquierda{
         flex-direction: row;
         justify-content: space-around;
@@ -299,20 +285,17 @@ footer section a i {
     .sucursales{
         font-size: 0.8rem;
     }
-
     #cabezera{
         flex-direction:column;
     }
     .item2-cabezera{
         flex: 70%;
         font-size: 4vh;
-
     }
     .item3-cabezera{
         flex:30%;
         flex-direction: row;
         justify-content:space-between;
-
     }
      nav a {
         align-items: center;
@@ -326,13 +309,10 @@ footer section a i {
     section p {
         font-size:0.7rem;
     }
-
     footer section a {
         font-size: 1rem;
     }
     footer p {
         font-size: 0.8rem;
     }
-
 }
-
